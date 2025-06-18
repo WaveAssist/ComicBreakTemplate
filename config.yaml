@@ -1,4 +1,4 @@
-name: Comic Break
+name: ComicBreak
 description: ''
 nodes:
 - key: xkcd_comic_fetcher
