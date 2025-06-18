@@ -1,0 +1,13 @@
+name: Comic Break
+description: ''
+nodes:
+- key: xkcd_comic_fetcher
+  name: XkcdComicFetcher
+  file_name: xkcd_comic_fetcher.py
+  starting_node: true
+  schedule: null
+- key: xkcd_email_sender
+  name: XkcdEmailSender
+  file_name: xkcd_email_sender.py
+  run_after:
+  - xkcd_comic_fetcher
