@@ -15,7 +15,7 @@
 
 ## Overview
 
-Retrieves the current xkcd comic via its JSON API (no key) and emails the comic image with title.
+Retrieves the current xkcd comic via its JSON API (no key) and emails the comic image with a nice title.
 
 This template runs on [WaveAssist](https://waveassist.io) and automates the process of delivering the latest xkcd comic to your inbox.
 
